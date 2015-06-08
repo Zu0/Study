@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>8C6D7FA8-3434-4475-916D-E5BD53DD83EB</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>Node.JS</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>C02BF13420D7909DDC50FFFE76C03C2947F5AAC7</key>
 		<string>https://github.com/Zu0/Study.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Node.JS/Node.JS.xcodeproj/project.xcworkspace</string>
+	<string>Node.JS/Node.JS.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>C02BF13420D7909DDC50FFFE76C03C2947F5AAC7</key>
