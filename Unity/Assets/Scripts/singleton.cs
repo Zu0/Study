@@ -20,9 +20,9 @@ public class singleton<TypeName> : MonoBehaviour where TypeName : MonoBehaviour
 			{
 				if (instance == null)
 				{
-					instance = (T) FindObjectOfType(typeof(T));
+					instance = (TypeName) FindObjectOfType(typeof(TypeName));
 					
-					if ( FindObjectsOfType(typeof(T)).Length > 1 )
+					if ( FindObjectsOfType(typeof(TypeName)).Length > 1 )
 					{
 						//singleton must has one instance.
 						Debug.LogError("Singleton is not multiple-instance.");
