@@ -1,3 +1,1 @@
-var fs = require('fs');
-
-console.log('log');
+var express = require('express')

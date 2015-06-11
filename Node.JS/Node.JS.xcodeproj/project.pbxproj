@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXFileReference section */
+		F31C28091B26117B002BD4B1 /* singleton.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = singleton.js; sourceTree = "<group>"; };
+		F31C280A1B2611A4002BD4B1 /* user.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = user.js; sourceTree = "<group>"; };
 		F3C522CD1B2608A9006667E2 /* app.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = app.js; sourceTree = "<group>"; };
 		F3C522D01B26091F006667E2 /* database.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = database.js; sourceTree = "<group>"; };
 		F3C522D11B26093E006667E2 /* resource.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = resource.js; sourceTree = "<group>"; };
@@ -16,6 +18,8 @@
 		F3C779011B26002800402C77 = {
 			isa = PBXGroup;
 			children = (
+				F31C280A1B2611A4002BD4B1 /* user.js */,
+				F31C28091B26117B002BD4B1 /* singleton.js */,
 				F3C522D11B26093E006667E2 /* resource.js */,
 				F3C522D01B26091F006667E2 /* database.js */,
 				F3C522CD1B2608A9006667E2 /* app.js */,
