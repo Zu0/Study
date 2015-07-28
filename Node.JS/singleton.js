@@ -1,4 +1,4 @@
-var singleton = function singleton(){
+var session = function session(){
     var contents = {};
     this.set = function(key, data, expire){
         expire = expire || 7200000; //두시간
@@ -25,7 +25,7 @@ var singleton = function singleton(){
         if(typeof(contents[key]) !== "undefined"
            && contents[key] !== null
            && contents[key].timer !== "undefined"
-           && contents[key].timer !== null){
+           && contents[key].x !== null){
             clearTimeout(contents[key].timer);
             delete contents[key];
         }
@@ -35,17 +35,17 @@ var singleton = function singleton(){
         return contents;
     };
     
-    if(singleton.caller !== singleton.getInstance){
-        throw new Error("Singleton !!");
+    if(session.caller !== session.getInstance){
+        throw new Error("one instance!!");
     }
 };
 
-singleton.instance = null;
-singleton.getInstance = function(){
+session.instance = null;
+session.getInstance = function(){
     if(this.instance === null){
-        this.instance = new singleton();
+        this.instance = new session();
     }
     return this.instance;
 };
 
-module.exports = singleton.getInstance();
+module.exports = session.getInstance();
